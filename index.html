@@ -6,29 +6,41 @@
   <p>All your solutions for this set of practice problems are located in the Replit console.  Please open the console by clicking the wrench icon near the top-right corner of this browser.
   </p>
   <script>
+    const numbers = [1,2,3,4,5,6,7,8,9];
     /* 
-    PROBLEM 1: 
+    PROBLEM 1: Create a new array of even numbers from the numbers array and log the results to the console.
     */
     //ENTER YOUR CODE HERE
      
     /* 
-    PROBLEM 2: 
+    PROBLEM 2: Create a new array of odd numbers from the numbers array and log the results to the console.
     */
     //ENTER YOUR CODE HERE
     
      /* 
-    PROBLEM 3: 
+    PROBLEM 3: Create a new array of strings from the strings array that have a length less than 6 and log the results to the console.
     */
+    const strings = ['hello', 'world', 'javascript', 'coding'];
     //ENTER YOUR CODE HERE
 
     /* 
-    PROBLEM 4: 
+    PROBLEM 4: Create a new array of numbers that are larger than 100 and log the results to the console.
     */
+    const largeNumbers = [11,55,1001, 356, 97, 88, 244, 975, 42];
     //ENTER YOUR CODE HERE
 
     /* 
-    PROBLEM 5 (DEBUGGING): 
+    PROBLEM 5 (DEBUGGING): The following code is supposed to filter out the even numbers but it returns a new array of even numbers. Fix the bug and check the results in the console.
     */
+    const debuggingNumbers = [1, 2, 3, 4, 5];
+
+    const evenDebuggedNumbers = debuggingNumbers.filter(number => {
+      if (number % 2 === 0) {
+        return true;
+      }
+    });
+
+    console.log(evenDebuggedNumbers);
     
   </script> 
   <section style="border: 2px solid blue; border-radius: 5px; padding: 10px; box-shadow: 5px 3px 3px orange; margin-top: 20px;">
